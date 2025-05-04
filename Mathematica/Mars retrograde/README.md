@@ -3,3 +3,6 @@ Mars retrograde is an astronomical phenomenon in which Mars appears to move back
 Because Earth orbits the Sun faster than Mars, there are times when Earth overtakes Mars. During this period, known as retrograde motion, Mars seems to slow down, stop, and move westward temporarily before resuming its normal eastward (prograde) path. Mars retrograde occurs roughly every 26 months and lasts for about 2 to 2.5 months.  
 This phenomenon has been observed since ancient times and was historically difficult to explain before the heliocentric model of the solar system was widely accepted.  
 I design a programme that can visualize the Mars Retrograde in Mathematica.
+The followings are screenshot of programme.
+![Heliocentric Theory (Moving Orbit, 2 years)](picture1.jpg)
+![Mars Retrograde(Moving Orbit, 2 years of Mars)](picture2.jpg)
