@@ -17,3 +17,5 @@ g[4, x_] := Flatten /@ {{x[[1]]}, {}, {x[[2, -1]], x[[3]]}}
 h[n_] := FoldList[g[#2, #1] &, {Range[n], {}, {}}, ToString /@ f[n] /. {"a -> b" -> 1, "a -> c" -> 2, "b -> a" -> 3, "b -> c" -> 4}]
 Manipulate[ListAnimate[drawHanoi /@ h[n]], {n, 1, 100, 1}, LabelStyle -> Directive[Blue, Medium]]
 ```
+运行示例：（n=62）
+![](picture1.jpg)
