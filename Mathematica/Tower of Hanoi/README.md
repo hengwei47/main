@@ -17,8 +17,6 @@ drawHanoi[state : {a_, b_, c_}] :=
   disks = MapIndexed[disck[#1, #2 // First, n] &, state]; 
   Show[rods, disks, labels, PlotRange -> {{-2 n, 2 n}, {-1.5, n + 1}},
     Axes -> False]]
-
-drawHanoi[{{1, 2, 3}, {}, {}}]
 ```
 汉诺塔的可视化解法：
 ```mathematica
